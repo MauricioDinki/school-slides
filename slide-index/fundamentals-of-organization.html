@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Administracion De Calidad Total</title>
+
+		<meta name="description" content="Total Quality Management">
+		<meta name="author" content="Mauricio Ivan Mejia Ramirez">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../css/reveal.css">
+		<link rel="stylesheet" href="../css/theme/black.css" id="theme">
+		<link rel="icon" href="../img/favicon.ico">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../css/print/pdf.css' : '../css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="../lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Fundamentos de la Organización</h1>
+					<p>
+						<small>Por <a href="http://mauriciodinki.me">Mauricio Ivan Mejia</a> / <a href="http://twitter.com/MauricioDinki">@MauricioDinki</a></small>
+					</p>
+				</section>
+				<section>
+					<p>
+						Los autores neoclasicos la definieron como un conjunto de posiciones funcionales y jerárquicas, orientadas a la producción de bienes y servicios
+					</p>
+					<p>
+						<img src="../img/gifs/organization.gif" alt="organization" />
+					</p>
+				</section>
+				<section>
+					<section>
+						<h2>Puede dividirse en 3 partes</h2>
+					</section>
+					<section>
+						<h3>Complejidad</h3>
+						<p>
+							La cantidad de diferencias horizontales en departamentos separados, verticales (jerarquia de mandos), y especiales que existen en una organización
+						</p>
+					</section>
+					<section>
+						<h3>Formalización</h3>
+						<p>
+							Es el grado en que una organización confia en las reglas y procedimientos para dirigir el comportamiento de los empleados
+						</p>
+					</section>
+					<section>
+						<h3>Centralización</h3>
+						<p>
+							Se refiere a la localizacion de la toma de deciciones
+						</p>
+						<p>
+							<img src="../img/gifs/central.gif" alt="central" />
+						</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Diseño organizacional</h2>
+					</section>
+					<section>
+						<ul>
+							<li>Estructura basica</li>
+							<li>Mecanismos de operación</li>
+							<li>Mecanismo de descición</li>
+							<li>Mecanismo de coordinación</li>
+						</ul>
+						<p>
+							<img src="../img/gifs/look_face.gif" alt="look_face" />
+						</p>
+					</section>
+					<section>
+						<p>
+							Puede tener distintas divisiones, vertical por el numero de niveles y horizontal por sus departamentos, funcion, producto, territorio etc.
+						</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Organizacion Basica</h2>
+					</section>
+					<section>
+						<h3>Actividades hacia afuera</h3>
+						<ul>
+							<li>Marketing</li>
+							<li>Ventas</li>
+							<li>Compras</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Actividades hacia adentro</h3>
+						<ul>
+							<li>Produccion</li>
+							<li>Contabilidad</li>
+							<li>Personal</li>
+						</ul>
+						<p>
+							<img height="400" width="400 "src="../img/gifs/production.gif" alt="production" />
+						</p>
+					</section>
+				</section>
+				<section data-background="../img/gifs/end.gif">
+				</section>
+			</div>
+		</div>
+
+		<script src="../lib/js/head.min.js"></script>
+		<script src="../js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../plugin/zoom-js/zoom.js', async: true },
+					{ src: '../plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
