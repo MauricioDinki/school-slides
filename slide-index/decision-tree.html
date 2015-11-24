@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Fundamentos de la Organización</title>
+
+		<meta name="description" content="Slides">
+		<meta name="author" content="Mauricio Ivan Mejia Ramirez">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../css/reveal.css">
+		<link rel="stylesheet" href="../css/theme/black.css" id="theme">
+		<link rel="icon" href="../img/favicon.ico">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../css/print/pdf.css' : '../css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="../lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+    <style media="screen">
+      .align-left {
+        text-align: left;
+      }
+    </style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<h1>Árboles de decisión</h1>
+					<p>
+						<small>Por <a href="http://mauriciodinki.me">Lords Llama de la ciencia</a> / <a href="http://twitter.com/MauricioDinki">@thebestteam</a></small>
+					</p>
+				</section>
+
+				<section>
+          <section>
+            <h2>¿Qué son?</h2>
+            <img src="../img/gifs/" alt="wtf" />
+          </section>
+					<section>
+						<p>
+							Los árboles de decisión son diagramas secuenciales que nos muestran
+               los posibles resultados ante una problemática presentada.
+              Ayudan a las empresas a determinar cuáles son sus opciones al
+              mostrarles las distintas decisiones y sus resultados. La opción que
+              evita una pérdida o produce un beneficio extra tiene un valor.
+
+            </p>
+					</section>
+          <section>
+            <p>
+              Su objetivo es emplear distintos panoramas y poder seleccionar uno
+              bajo números y propuestas objetivas, evitando la combinación de emociones.
+            </p>
+            <img src="../img/gifs/" alt="selecciones objetivas" />
+          </section>
+					<section>
+						<p>
+              Su metodología se basa en separar estimados, desde consecuencias
+              hasta costos y las empresas suelen utilizar este diagrama para
+              determinar políticas empresariales o como herramienta para la
+              solución de problemas por parte de los empleados.
+						</p>
+            <strong>La toma de decisiones básicamente es una resolución de problemas</strong>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Elementos y Caracteristicas</h2>
+            <img src="../img/gifs/" alt="elementos y caracteristicas" />
+					</section>
+					<section class="align-left">
+            <h3>Elementos</h3>
+						<p>
+						  <strong>Entradas :</strong> Pueden ser un objeto o una situación
+              descrita por medio de un conjunto de atributos.
+						</p>
+            <p>
+              <strong>Salidas :</strong> Una(s) respuesta(s) la cual en últimas
+              es una decisión que es tomada de las entradas.
+
+            </p>
+					</section>
+					<section>
+						<h3>Caracteristicas</h3>
+            <img src="../img/gifs/" alt="caracteristicas" />
+					</section>
+					<section>
+						<ul>
+						  <li>
+                Plantea el problema desde distintas perspectivas de acción.
+              </li>
+              <li>
+                Permite analizar de manera completa todas las posibles soluciones.
+              </li>
+              <li>
+                Provee de un esquema para cuantificar el costo del resultado y
+                su probabilidad de uso.
+              </li>
+              <li>
+                Ayuda a realizar las mejores decisiones con base a la información
+                existente y a las mejores suposiciones.
+              </li>
+              <li>
+                Su estructura permite analizar las alternativas, los eventos,
+                las probabilidades y los resultados.
+              </li>
+						</ul>
+					</section>
+          <section>
+            <h3>Ventajas y Desventajas</h3>
+            <img src="../img/gifs" alt="ventajas-desventajas" />
+          </section>
+          <section class="align-left">
+            <p>
+              <strong>Ventajas</strong>
+            </p>
+            <ul>
+              <li>
+                Facilita la interpretación de la decisión adoptada
+              </li>
+              <li>
+                Proporciona un alto grado de conocimiento utilizado en la toma
+                de decisiones
+              </li>
+              <li>
+                Explica el comportamiento respecto a una determinada situación
+                y tarea de decisión
+              </li>
+            </ul>
+            <p>
+              <strong>Desventajas</strong>
+            </p>
+            <ul>
+              <li>
+                Sólo es recomendable para cuando el número de acciones es
+                pequeño y no son posibles todas las combinaciones.
+              </li>
+            </ul>
+          </section>
+				</section>
+
+        <section>
+          <section>
+            <h2>Simbologia</h2>
+            <img src="../img/gifs/" alt="simbologia" />
+          </section>
+          <section>
+            <p>
+              Un árbol de decisión lleva a cabo un test a medida que este se
+               recorre hacia las hojas para alcanzar así una decisión.
+            </p>
+            <p>
+              El árbol de decisión suele contener nodos internos, nodos de
+              probabilidad, nodos hojas y arcos.
+            </p>
+            <img src="../img/arbold.png" alt="arbol" />
+          </section>
+          <section class="align-left">
+            <ul>
+              <li>
+                Un nodo interno contiene un test sobre algún valor de una de
+                las propiedades.
+              </li>
+              <li>
+                Un nodo de probabilidad indica que debe ocurrir un evento
+                aleatorio de acuerdo a la naturaleza del problema, este
+                tipo de nodos es redondo, los demás son cuadrados.
+              </li>
+              <li>
+                Un nodo hoja representa el valor que devolverá el árbol de decisión.
+              </li>
+              <li>
+                Las ramas brindan los posibles caminos que se tienen de acuerdo
+                a la decisión tomada.
+              </li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <img src=",,/img/gifs/" alt="procedimiento" />
+            <h3>Procedimiento</h3>
+          </section>
+          <section>
+            <p>
+              Se llama árbol de decisión porque se busca generar cuáles son las alternativas (sean buenas o malas) de cada factor a evaluar.
+            </p>
+            <img src="../img/gifs/" alt="goodbad" />
+          </section>
+          <section class="align-left">
+            <h4>Paso 1: Identificar todas las variables del problema central</h4>
+            <p>
+              Una vez identificada la problemática, se comienza a enumerar
+              todos los factores que la componen.
+            </p>
+            <h4>Paso 2: Priorizar</h4>
+            <p>
+              Es importante comenzar a limitar los criterios de decisión,
+              es por ello que de la lista anterior se debe separar cuáles
+              son los factores que son primordiales para la empresa.
+            </p>
+          </section>
+          <section class="align-left">
+            <h4>Paso 3: Identificar la importancia de los criterios</h4>
+            <p>
+              Se trata de buscar y enumerar (de los criterios anteriores)
+              cuales son más importantes, para ello es recomendable enumerar.
+            </p>
+            <h4>Paso 4: Comenzar a ver variables</h4>
+            <p>
+              Cada uno de estos factores debe contar con fortalezas o debilidades,
+               se debe  comenzar la ramificación apartando tres o cuatro
+               alternativas para cada criterio. Lo que se busca es generar
+               supuestos de manera objetiva, si de los criterios salieron
+               cuatro ramificaciones y de esas cuatro salieron 12 más, esto
+               ayudará a profundizar en lo más conveniente.
+            </p>
+          </section>
+          <section class="align-left">
+            <h4>Paso 5: Seleccionar una alternativa</h4>
+            <p>
+              Se analiza cuál es la opción más conveniente de acuerdo al árbol
+              de decisiones, siempre se toma en cuenta la importancia de los
+              criterios y cada una de sus alternativas.
+            </p>
+            <h4>Paso 6: Implementar la alternativa</h4>
+            <p>
+              Si bien la implementación no es como tal parte de la evaluación
+              de las alternativas por medio del árbol de decisiones, al
+              realizarlo es importante cuidar que se siga paso a paso cada
+              detalle, una pequeña falla podría dar resultados no deseados
+              y esto perjudicaría todo el proceso de selección.
+            </p>
+          </section>
+          <section class="align-left">
+            <h4>Paso 7: Evaluar la efectividad de la decisión</h4>
+            <p>
+              Siempre es bueno saber qué se hizo bien y qué se hizo mal,
+              analizar cada paso en la evaluación de alternativas ayudará a
+              mejorar tomas de decisiones a futuro. 
+            </p>
+          </section>
+        </section>
+
+				<section>
+					<h2>Fin</h2>
+					<p>
+						<img width=600 src="../img/gifs/fuck_you.gif" alt="fuck_you" />
+					</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="../lib/js/head.min.js"></script>
+		<script src="../js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../plugin/zoom-js/zoom.js', async: true },
+					{ src: '../plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
